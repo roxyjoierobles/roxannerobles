@@ -1,2 +1,7 @@
 # roxannerobles
-personal website
+official personal website 
+
+
+
+
+NOTE: drafted using UBC github account 
