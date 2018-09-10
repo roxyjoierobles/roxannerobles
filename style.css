@@ -2,7 +2,7 @@ h1 {
   text-align: center;
   font-family: "Sail", cursive;
   font-size: 65px;
-  color: white;
+  color: ffd4d2;
   line-height: 65px;
 }
 
@@ -65,7 +65,7 @@ body {
 
 h2 {
   font-family: "Meddon";
-  color: pink;
+  color: ffd4d2;
   font-size: 30px;
 }
 h3 {
@@ -103,7 +103,7 @@ p.a {
 }
 
 a {
-    color: pink;
+    color: ffd4d2;
 }
 
 a:visited {
