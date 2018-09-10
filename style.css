@@ -20,7 +20,8 @@ h1 {
 
 @-webkit-keyframes imageRoll {
   0% {
-   background-image: url("https://i.pinimg.com/564x/ba/c0/23/bac02379eeb5030fc8c4548e4a142b96.jpg");
+   /**background-image: url("https://i.pinimg.com/564x/ba/c0/23/bac02379eeb5030fc8c4548e4a142b96.jpg");*/
+   background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/f0ef6a34192723.56c72f44cf64d.jpg");
   } 
   50% {
      background-image: url("https://i.pinimg.com/564x/ba/c0/23/bac02379eeb5030fc8c4548e4a142b96.jpg");
