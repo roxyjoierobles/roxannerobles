@@ -4,7 +4,7 @@
   position: relative;
 }
 
-#headerText {
+#headerText.h1 {
   font-family: "Sail", cursive;
   font-size: 100px;
   position: absolute;
