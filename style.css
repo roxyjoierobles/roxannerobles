@@ -5,7 +5,10 @@
 }
 
 h1 {
-  font-family: "Sail", cursive;
+  /**font-family: "Sail", cursive;*/
+  font-family: "Playfair Display";
+  font-style: italic;
+  font-weight: bold;
   font-size: 100px;
   position: absolute;
   left: 0;
