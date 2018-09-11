@@ -15,6 +15,7 @@ h1 {
   width: 100%;
   text-align: center;
   color: pink;
+  text-shadow: 4px 4px white;
 }
 
 #header:hover {
