@@ -1,14 +1,14 @@
 h1 {
   text-align: center;
   font-family: "Sail", cursive;
-  font-size: 65px;
+  font-size: 100px;
   color: pink;
-  line-height: 65px;
+  line-height: 200px;
 }
 
 #header {  
   background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/f0ef6a34192723.56c72f44cf64d.jpg");
-  height: 80px;
+  height: 210px;
   margin: 0px; 
 }
 
