@@ -34,29 +34,6 @@ h1 {
   }
 }
 
-/** multipage design */
-#main {
-  padding 10px;
-}
-input[name="pages"] {
-  display: none;
-}
-section.page {
-  position: relative;
-  display: none;
-}
-input[name = "pages"]:checked+section.page {
-  display: block;
-}
-label.label-link {
-  color: black;
-  text-decoration: none;
-  cursor: pointer;
-  padding: 5px;
-  font-family: "Playfair Display";
-  font-size: 15px;
-}
-
 body {
   text-align: center;
 }
