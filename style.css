@@ -91,9 +91,6 @@ p.a {
   margin: 0;
 }
 
-a {
-    color: pink;
-}
 
 a:visited {
     color: black;
