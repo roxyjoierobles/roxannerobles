@@ -56,8 +56,12 @@ h3 {
   font-size: 16px;
 }
 
-#menu.ul {
-    list-style-type: none;
+#menu ul {
+   list-style-type: none;
+}
+
+#menu li {
+   display: inline;
 }
 
 ul.projects { 
