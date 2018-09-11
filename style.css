@@ -95,6 +95,9 @@ p.a {
   margin: 0;
 }
 
+p {
+  font-family: "Playfair Display";
+}
 
 a:visited {
     color: black;
