@@ -62,6 +62,7 @@ h3 {
 
 #menu li {
    display: inline;
+    text-align: center;
 }
 
 ul.projects { 
@@ -83,6 +84,8 @@ ul li {
   color: black;
   list-style-type: circle;
   list-style-position: inside;
+  text-align: center;
+
 }
 
 p.a {
