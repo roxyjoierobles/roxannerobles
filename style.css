@@ -68,12 +68,12 @@ ul.projects li a {
   text-decoration: none;
 }
 
-ul.hi {
+ulli {
   margin: 0;
   padding: 0;
 }
 
-ul.hi li { 
+ul li {
   color: black;
   list-style-type: circle;
   list-style-position: inside;
