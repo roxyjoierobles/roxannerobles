@@ -56,6 +56,10 @@ h3 {
   font-size: 16px;
 }
 
+#menu.ul {
+    list-style-type: none;
+}
+
 ul.projects { 
   list-style-type: circle;
   list-style-position: inside;
@@ -68,12 +72,10 @@ ul.projects li a {
   text-decoration: none;
 }
 
-ulli {
-  margin: 0;
-  padding: 0;
-}
 
 ul li {
+  margin: 0;
+  padding: 0;
   color: black;
   list-style-type: circle;
   list-style-position: inside;
