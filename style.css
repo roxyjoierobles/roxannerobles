@@ -63,7 +63,13 @@ h3 {
 
 #menu li {
    display: inline;
-    text-align: center;
+   text-align: center;
+}
+
+#menu li a{
+   display: inline;
+   text-align: center;
+   color: black;
 }
 
 ul.projects { 
