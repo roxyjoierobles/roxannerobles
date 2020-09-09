@@ -14,9 +14,7 @@ h1 {
   left: 0;
   width: 100%;
   text-align: center;
-  color: pink;
-  text-shadow: 4px 4px white;
-  white-space: nowrap;
+  color: white;
 }
 
 #header:hover {
