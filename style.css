@@ -18,7 +18,7 @@ h1 {
 }
 
 #footer {
-  margin-left: 325px; /* Same as the width of the sidebar */
+  margin-left: 350px; /* Same as the width of the sidebar */
   padding: 0px 10px;
 }
 
@@ -51,7 +51,7 @@ h3 {
 .header {
   margin-top:-30px;
   padding: 0;
-  width: 325px;
+  width: 350px;
   background-color: #f1f1f1;
   position: fixed;
   overflow: auto;
@@ -65,7 +65,7 @@ h3 {
 
 .header-description {
   margin-top: -70px;
-  width: 325px;
+  width: 350px;
   background-color: #f1f1f1;
   position: fixed;
   font-size: 14px;
@@ -74,7 +74,7 @@ h3 {
 .sidenav {
   padding: 0;
   margin-top: 240px;
-  width: 325px;
+  width: 350px;
   background-color: #f1f1f1;
   position: fixed;
   height: 100%;
@@ -103,7 +103,7 @@ h3 {
 }
 
 @media screen and (max-width: 700px) {
-  .header {
+  .header, .header-description {
     width: 100%;
     height: auto;
     position: relative;
@@ -119,7 +119,7 @@ h3 {
 }
 
 @media screen and (max-width: 400px) {
-  .header a {
+  .header a, .header-description {
     width: 100%;
     height: auto;
     position: relative;
@@ -131,9 +131,10 @@ h3 {
 }
 
 .main {
-  margin-left: 325px; /* Same as the width of the sidebar */
+  margin-left: 350px;
   padding: 0px 10px;
 }
+
 
 /*
 ul.projects { 
@@ -159,6 +160,7 @@ ul li {
 
 }
 */
+
 
 #links {
     float: left;
