@@ -136,6 +136,17 @@ h3 {
 }
 
 
+.quotes {
+  font-size: 14px;
+}
+
+.quote-description {
+  font-family: "Meddon";
+  font-size: 16px;
+  line-height: 10px;
+}
+
+
 /*
 ul.projects { 
   list-style-type: circle;
