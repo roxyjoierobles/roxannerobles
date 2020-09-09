@@ -1,9 +1,3 @@
-#header {
-  background-image: url("https://i.pinimg.com/564x/19/9c/51/199c514f1220fb611644161ec0d62138.jpg");
-  height: 210px;
-  position: relative;
-}
-
 h1 {
   /**font-family: "Sail", cursive;*/
   font-family: "Playfair Display", serif;
@@ -17,10 +11,15 @@ h1 {
   color: white;
 }
 
-#header:hover {
+#title:hover {
   -webkit-animation:imageRoll 15s infinite linear;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+#footer {
+  margin-left: 325px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
 }
 
 @-webkit-keyframes imageRoll {
@@ -35,14 +34,7 @@ h1 {
 
 body {
   text-align: center;
-}
-
-#footer { 
-  text-align: center;
-  height: 100px; 
-  width:100%;
-  bottom: 0; 
-  position: relative;
+  margin: 0;
 }
 
 h2 {
@@ -50,26 +42,90 @@ h2 {
   color: pink;
   font-size: 30px;
 }
+
 h3 {
   font-family: "Playfair Display";
   font-size: 16px;
 }
 
-#menu ul {
-   list-style-type: none;
+.header {
+  margin-top:-30px;
+  padding: 0;
+  width: 325px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  font-family: "Playfair Display";
+  font-size: 55px;
+  font-style: italic;
 }
 
-#menu li {
-   display: inline;
-   text-align: center;
+
+.sidenav {
+  padding: 0;
+  margin-top: 170px;
+  width: 325px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
 }
 
-#menu li a{
-   display: inline;
-   text-align: center;
-   color: black;
+.sidenav a, .header a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
 }
 
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav a.active {
+  background-color: #4CAF50;
+  color: #555;;
+}
+
+.sidenav a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+@media screen and (max-width: 700px) {
+  .header {
+    width: 100%;
+    height: auto;
+    position: relative;
+   }
+  .sidenav {
+    margin-top:0px;
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidenav a {float: left;}
+  div.main {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .header a {
+    width: 100%;
+    height: auto;
+    position: relative;
+   }
+  .sidenav a {
+    text-align: center;
+    float: none;
+  }
+}
+
+.main {
+  margin-left: 325px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
+
+/*
 ul.projects { 
   list-style-type: circle;
   list-style-position: inside;
@@ -92,25 +148,7 @@ ul li {
   text-align: center;
 
 }
-
-p.a {
-  font-family: "Meddon";
-  padding: 0;
-  margin: 0;
-}
-
-p {
-  font-family: "Playfair Display";
-}
-
-a:visited {
-    color: black;
-}
-
-a {
-    text-decoration: none;
-}
-
+*/
 
 #links {
     float: left;
