@@ -12,10 +12,6 @@ h1 {
 }
 
 /*
-#footer {
-  margin-left: 350px;
-  padding: 0px 10px;
-}
 
 #title:hover {
   -webkit-animation:imageRoll 15s infinite linear;
@@ -83,25 +79,39 @@ h3 {
   overflow: auto;
 }
 
-.sidenav a, .header a {
-  display: block;
-  padding: 16px;
-  text-decoration: none;
-  color: #d7cde3;
-}
+  .menu a:hover {
+    color: #eeeeee;
+    background-color: rgb(128,128,128, 0.3);
+  }
 
-.menu a:hover {
-  color: #eeeeee;
-  background-color: rgb(128,128,128, 0.3);
-}
+ .sidenav a, .header a {
+    display: block;
+    padding: 16px;
+    text-decoration: none;
+    color: #d7cde3;
+  }
 
-.sidenav a.active {
-  color: #ececec;
-}
+  .sidenav a.active {
+    color: #ececec;
+  }
 
-.sidenav a:hover:not(.active) {
-  color: white;
-}
+  .sidenav a:hover:not(.active) {
+    color: white;
+  }
+
+  .quote {
+    font-size: 14px;
+    color: white;
+  }
+
+  .quote-description {
+    font-family: "Meddon";
+    font-size: 16px;
+    line-height: 10px;
+    color: #d7cde3;
+  }
+
+
 
 @media screen and (max-width: 700px) {
   .header, .header-description {
@@ -140,19 +150,6 @@ h3 {
   padding: 0px 10px;
 }
 
-
-.quotes {
-  font-size: 14px;
-  color: white;
-}
-
-.quote-description {
-  font-family: "Meddon";
-  font-size: 16px;
-  line-height: 10px;
-  color: #d7cde3;
-}
-
 a {
   text-decoration: none;
   color: #cabdda;
@@ -170,4 +167,11 @@ li {
   width: 30%;
   height: 30%;
   border: 15px solid #f1f1f1;
+}
+
+.social-footer {
+  margin-bottom: -50px;
+  margin-left: 350px;
+  padding: 0px 10px;
+  color: #d7cde3;
 }
