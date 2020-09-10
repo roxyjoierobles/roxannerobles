@@ -117,6 +117,10 @@ h3 {
   }
   .sidenav a {float: left;}
   div.main {margin-left: 0;}
+  .quotes, .quote-description{
+     display: none;
+  }
+
 }
 
 @media screen and (max-width: 400px) {
