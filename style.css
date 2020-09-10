@@ -149,28 +149,21 @@ h3 {
   color: #d7cde3;
 }
 
-
-/*
-ul.projects { 
-  list-style-type: circle;
-  list-style-position: inside;
-  text-align: center;
-}
-
-ul.projects li a {
-  text-align: center;
-  color: black;
+a {
   text-decoration: none;
+  color: #cabdda;
 }
 
-
-ul li {
-  margin: 0;
-  padding: 0;
-  color: black;
-  list-style-type: circle;
-  list-style-position: inside;
-  text-align: center;
-
+a:hover {
+  color: #d7cde3;
 }
-*/
+
+li {
+    height : 25px;
+}
+
+.profilepic {
+  width: 70%;
+  height: 70%;
+  border: 15px solid #f1f1f1;
+}
