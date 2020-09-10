@@ -90,12 +90,12 @@ h3 {
   color: #d7cde3;
 }
 
-.sidenav a:hover {
-  color: #f1f1f1;
+.menu a:hover {
+  color: #eeeeee;
 }
 
 .sidenav a.active {
-  color: white;
+  color: #ececec;
 }
 
 .sidenav a:hover:not(.active) {
@@ -145,7 +145,7 @@ h3 {
   font-family: "Meddon";
   font-size: 16px;
   line-height: 10px;
-  color: white;
+  color: #d7cde3;
 }
 
 
