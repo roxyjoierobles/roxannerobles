@@ -127,7 +127,7 @@ h3 {
   }
   .sidenav a {float: left;}
   div.main {margin-left: 0;}
-  .quotes, .quote-description{
+  .quote, .quote-description{
      display: none;
   }
 
