@@ -13,7 +13,7 @@ h1 {
 
 /*
 
-#title:hover {
+.title:hover {
   -webkit-animation:imageRoll 15s infinite linear;
   background-repeat: no-repeat;
   background-size: cover;
@@ -46,13 +46,13 @@ h3 {
   font-size: 16px;
 }
 
-#header-title {
+.header-title {
   font-family: "Playfair Display";
   font-size: 55px;
   font-style: italic;
 }
 
-#header-description {
+.header-description {
   margin-top: -70px;
   width: 350px;
   position: fixed;
@@ -60,7 +60,7 @@ h3 {
   color: white;
 }
 
-#header, #sidenav {
+.header, .sidenav {
    /*
    background-image: url('https://i.pinimg.com/236x/de/6b/ff/de6bffd4104796141e17dbc030f37097.jpg');
    background-image: url('https://i.pinimg.com/236x/f4/44/da/f444dab5b29c4d5f58132ff27ce60cb9.jpg');
@@ -70,7 +70,7 @@ h3 {
 }
 
 
-#sidenav {
+.sidenav {
   margin-top:-30px;
   padding: 0;
   width: 350px;
@@ -79,32 +79,32 @@ h3 {
   overflow: auto;
 }
 
-  #menu a:hover {
+  .menu a:hover {
     color: #eeeeee;
     background-color: rgb(128,128,128, 0.3);
   }
 
- #sidenav a, #header a {
+ .sidenav a, .header a {
     display: block;
     padding: 16px;
     text-decoration: none;
     color: #d7cde3;
   }
 
-  #sidenav a.active {
+  .sidenav a.active {
     color: #ececec;
   }
 
-  #sidenav a:hover:not(.active) {
+  .sidenav a:hover:not(.active) {
     color: white;
   }
 
-  #quote {
+  .quote {
     font-size: 14px;
     color: white;
   }
 
-  #quote-description {
+  .quote-description {
     font-family: "Meddon";
     font-size: 16px;
     line-height: 10px;
@@ -114,38 +114,38 @@ h3 {
 
 
 @media screen and (max-width: 700px) {
-  #header, #header-description {
+  .header, .header-description {
     width: 100%;
     height: auto;
     position: relative;
    }
-  #sidenav {
+  .sidenav {
     margin-top:0px;
     width: 100%;
     height: auto;
     position: relative;
   }
-  #sidenav a {float: left;}
+  .sidenav a {float: left;}
   div.main {margin-left: 0;}
-  #quotes, #quote-description{
+  .quotes, .quote-description{
      display: none;
   }
 
 }
 
 @media screen and (max-width: 400px) {
-  #header a, #header-description {
+  .header a, .header-description {
     width: 100%;
     height: auto;
     position: relative;
    }
-  #sidenav a {
+  .sidenav a {
     text-align: center;
     float: none;
   }
 }
 
-#main {
+.main {
   margin-left: 350px;
   padding: 0px 10px;
 }
@@ -163,13 +163,13 @@ li {
     height : 25px;
 }
 
-#profilepic {
+.profilepic {
   width: 30%;
   height: 30%;
-  border: 15px solid #f1f1f1;
+  border: 15px solid .f1f1f1;
 }
 
-#social-footer {
+.social-footer {
   margin-bottom: -50px;
   margin-left: 350px;
   padding: 0px 10px;
